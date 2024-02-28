@@ -13,12 +13,12 @@ class _HomePageState extends State<HomePage> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Flutter Template'),
+          title: const Text('Flutter Template'),
           centerTitle: true,
           backgroundColor: Colors.grey,
           shadowColor: Colors.black,
         ),
-        drawer: Drawer(),
+        drawer: const Drawer(),
       ),
     );
   }
